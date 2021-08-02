@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprodutor de música</title>
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu reprodutor de música</h1>
+    </header>
+<div>
+<div class="audio-container">
+        <audio id="audio">
+            <source src="Hinos/(Hino avulso) Canta pra ela Oh Deus - Júnior_ Jont(MP3_160K).mp3">
+        </audio>
+</div>
+    <div class="botoes">
+        <button role="button" class="botao">Anterior</button>
+        <button role="button" class="botao" onclick="playpause()">Play/Pause</button>
+        <button role="button" class="botao">Próxima</button>
+        <button role="button" class="botao">Stop</button>
+    </div>
+</div>
+<div class="container">
+    <h2>Lista de Músicas</h2>
+<input type="file" id="pasta">
+</div>
+</body>
+<script src="main-script.js" defer async></script>
+</html>
